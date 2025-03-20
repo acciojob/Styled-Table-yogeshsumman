@@ -1,1 +1,37 @@
-/* your code */
+<style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        thead {
+            background-color: #1a237e; /* Deep space blue */
+            color: #ffffff; /* White text */
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #b0bec5; /* Light gray border */
+        }
+
+        th {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e8eaf6; /* Light blue-gray for odd rows */
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffffff; /* White for even rows */
+o
+        tbody tr:hover {
+            background-color: #bbdefb; /* Hover effect with a lighter blue */
+        }
+D
